@@ -146,3 +146,5 @@ public/
 
 # DynamoDB Local files
 .dynamodb/
+
+dist
