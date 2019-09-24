@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Go Bros Learning',
-  description: 'Go Bros Learning',
-  base: '/learn/',
+  title: 'Go Land',
+  description: 'Go Land - Young Tailors Team',
+  base: '/go-lane/',
 }

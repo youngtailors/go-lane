@@ -1,9 +1,9 @@
 {
-  "name": "learn",
+  "name": "go-lane",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/go-bros/learn",
-  "author": "Go Bros Team <dacsang97@gmail.com>",
+  "repository": "https://github.com/youngtailors/go-lane",
+  "author": "Young Tailors Team <team@youngtailors.team>",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev documents",

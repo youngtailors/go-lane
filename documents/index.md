@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Learing
-tagline: By Go Bros
+heroText: Go Land
+tagline: Young Tailors Team
 actionText: Get Started →
 actionLink: /guide/
 features:
@@ -11,5 +11,5 @@ features:
     details: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   - title: Lorem 3
     details: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-footer: MIT Licensed | Copyright © 2019-present Go Bros Team
+footer: MIT Licensed | Copyright © 2019-present Young Tailors Team
 ---
