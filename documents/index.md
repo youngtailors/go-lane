@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Go Land
+heroText: Go Lane
 tagline: Young Tailors Team
 actionText: Get Started →
 actionLink: /guide/
