@@ -10,7 +10,8 @@ module.exports = {
       {
         title: 'Cơ bản',   // required
         children: [ 
-          '/guide/hello-world/'
+          '/guide/hello-world/',
+          '/guide/values/'
         ]
       }
     ]
