@@ -5,7 +5,7 @@
 <i>Go by Example</i> là phần giới thiệu thực hành về Go sử dụng các chương trình ví dụ có chú thích. Đi tới ví dụ đầu tiên <router-link to="./hello-world"><u>first example</u></router-link> hoặc mở theo danh sách các bài đầy đủ bên dưới.
 
 <router-link to="./hello-world"><u>Hello World</u></router-link></br>
-<router-link to="#"><u>Values</u></router-link></br>
+<router-link to="./values"><u>Values</u></router-link></br>
 <router-link to="#"><u>Variables</u></router-link></br>
 <router-link to="#"><u>Constants</u></router-link></br>
 <router-link to="#"><u>For</u></router-link></br>
