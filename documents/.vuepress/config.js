@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Golang',
   description: 'Golang - Young Tailors Team',
-  base: '/go-lang/',
+  base: '/go-lane/',
   themeConfig: {
     nav: [
       { text: 'Guide', link: '/guide/' }
