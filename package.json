@@ -1,8 +1,8 @@
 {
-  "name": "go-lane",
+  "name": "go-lang",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/youngtailors/go-lane",
+  "repository": "https://github.com/youngtailors/go-lang",
   "author": "Young Tailors Team <team@youngtailors.team>",
   "license": "MIT",
   "scripts": {
