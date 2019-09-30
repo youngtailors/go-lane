@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Go Lane
+heroText: Golang
 tagline: Young Tailors Team
 actionText: Get Started →
 actionLink: /guide/
