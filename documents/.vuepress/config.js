@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'Go Land',
-  description: 'Go Land - Young Tailors Team',
-  base: '/go-lane/',
+  title: 'Golang',
+  description: 'Golang - Young Tailors Team',
+  base: '/go-lang/',
   themeConfig: {
     nav: [
       { text: 'Guide', link: '/guide/' }
@@ -11,7 +11,8 @@ module.exports = {
         title: 'Cơ bản',   // required
         children: [ 
           '/guide/hello-world/',
-          '/guide/values/'
+          '/guide/values/',
+          '/guide/variables/'
         ]
       }
     ]
