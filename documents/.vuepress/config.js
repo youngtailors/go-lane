@@ -12,7 +12,8 @@ module.exports = {
         children: [ 
           '/guide/hello-world/',
           '/guide/values/',
-          '/guide/variables/'
+          '/guide/variables/',
+          '/guide/constants/'
         ]
       }
     ]
