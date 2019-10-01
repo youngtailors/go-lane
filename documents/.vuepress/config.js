@@ -15,6 +15,7 @@ module.exports = {
           '/guide/variables/',
           '/guide/constants/',
           '/guide/for/',
+          '/guide/if-else/',
         ]
       }
     ]

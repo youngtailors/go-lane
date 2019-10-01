@@ -1,6 +1,6 @@
 # Go by Example
 
-<router-link to="https://golang.org/"><u>Go</u></router-link> là một ngôn ngữ lập trình nguồn mở được thiết kế để xây dựng phần mềm đơn giản, nhanh chóng và đáng tin cậy.
+<a href="https://golang.org/"><u>Go</u></a> là một ngôn ngữ lập trình nguồn mở được thiết kế để xây dựng phần mềm đơn giản, nhanh chóng và đáng tin cậy.
 
 <i>Go by Example</i> là phần giới thiệu thực hành về Go sử dụng các chương trình ví dụ có chú thích. Đi tới ví dụ đầu tiên <router-link to="./hello-world"><u>first example</u></router-link> hoặc mở theo danh sách các bài đầy đủ bên dưới.
 
@@ -9,7 +9,7 @@
 <router-link to="./variables"><u>Variables</u></router-link></br>
 <router-link to="./constants"><u>Constants</u></router-link></br>
 <router-link to="./for"><u>For</u></router-link></br>
-<router-link to="#"><u>If/Else</u></router-link></br>
+<router-link to="./if-else"><u>If/Else</u></router-link></br>
 <router-link to="#"><u>Switch</u></router-link></br>
 <router-link to="#"><u>Arrays</u></router-link></br>
 <router-link to="#"><u>Slices</u></router-link></br>
