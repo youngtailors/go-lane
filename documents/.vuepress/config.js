@@ -13,7 +13,8 @@ module.exports = {
           '/guide/hello-world/',
           '/guide/values/',
           '/guide/variables/',
-          '/guide/constants/'
+          '/guide/constants/',
+          '/guide/for/',
         ]
       }
     ]

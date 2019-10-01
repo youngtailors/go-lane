@@ -8,7 +8,7 @@
 <router-link to="./values"><u>Values</u></router-link></br>
 <router-link to="./variables"><u>Variables</u></router-link></br>
 <router-link to="./constants"><u>Constants</u></router-link></br>
-<router-link to="#"><u>For</u></router-link></br>
+<router-link to="./for"><u>For</u></router-link></br>
 <router-link to="#"><u>If/Else</u></router-link></br>
 <router-link to="#"><u>Switch</u></router-link></br>
 <router-link to="#"><u>Arrays</u></router-link></br>
