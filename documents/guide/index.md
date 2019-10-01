@@ -10,7 +10,7 @@
 <router-link to="./constants"><u>Constants</u></router-link></br>
 <router-link to="./for"><u>For</u></router-link></br>
 <router-link to="./if-else"><u>If/Else</u></router-link></br>
-<router-link to="#"><u>Switch</u></router-link></br>
+<router-link to="./switch"><u>Switch</u></router-link></br>
 <router-link to="#"><u>Arrays</u></router-link></br>
 <router-link to="#"><u>Slices</u></router-link></br>
 <router-link to="#"><u>Maps</u></router-link></br>
