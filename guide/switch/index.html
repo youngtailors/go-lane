@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Switch | Golang</title>
+    <meta name="description" content="Golang - Young Tailors Team">
+    
+    
+    <link rel="preload" href="/go-lane/assets/css/0.styles.bdfa16cb.css" as="style"><link rel="preload" href="/go-lane/assets/js/app.ee20a03a.js" as="script"><link rel="preload" href="/go-lane/assets/js/2.6727595f.js" as="script"><link rel="preload" href="/go-lane/assets/js/12.ed2f1381.js" as="script"><link rel="prefetch" href="/go-lane/assets/js/10.ec5a8ffb.js"><link rel="prefetch" href="/go-lane/assets/js/11.d18149a2.js"><link rel="prefetch" href="/go-lane/assets/js/13.42380ca9.js"><link rel="prefetch" href="/go-lane/assets/js/14.67ed951d.js"><link rel="prefetch" href="/go-lane/assets/js/15.b3fdc2e9.js"><link rel="prefetch" href="/go-lane/assets/js/16.e625795a.js"><link rel="prefetch" href="/go-lane/assets/js/3.4502374e.js"><link rel="prefetch" href="/go-lane/assets/js/4.bb48645e.js"><link rel="prefetch" href="/go-lane/assets/js/5.77018ae9.js"><link rel="prefetch" href="/go-lane/assets/js/6.3726f43c.js"><link rel="prefetch" href="/go-lane/assets/js/7.98c5bca2.js"><link rel="prefetch" href="/go-lane/assets/js/8.489c372a.js"><link rel="prefetch" href="/go-lane/assets/js/9.1ca6e81a.js">
+    <link rel="stylesheet" href="/go-lane/assets/css/0.styles.bdfa16cb.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/go-lane/" class="home-link router-link-active"><!----> <span class="site-name">Golang</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/go-lane/guide/" class="nav-link router-link-active">Guide</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/go-lane/guide/" class="nav-link router-link-active">Guide</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Cơ bản</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/go-lane/guide/hello-world/" class="sidebar-link">Hello World</a></li><li><a href="/go-lane/guide/values/" class="sidebar-link">Values</a></li><li><a href="/go-lane/guide/variables/" class="sidebar-link">Variables</a></li><li><a href="/go-lane/guide/constants/" class="sidebar-link">Constants</a></li><li><a href="/go-lane/guide/for/" class="sidebar-link">For</a></li><li><a href="/go-lane/guide/if-else/" class="sidebar-link">If-Else</a></li><li><a href="/go-lane/guide/switch/" class="active sidebar-link">Switch</a></li><li><a href="/go-lane/guide/arrays/" class="sidebar-link">Arrays</a></li><li><a href="/go-lane/guide/slices/" class="sidebar-link">Slices</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="switch"><a href="#switch" aria-hidden="true" class="header-anchor">#</a> Switch</h1> <p><code>Switch statements</code> thể hiện nhiều điều kiện qua nhiều nhánh.</p> <p>Dưới đây là một <code>switch</code> cơ bản:</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token string">&quot;fmt&quot;</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    i <span class="token operator">:=</span> <span class="token number">2</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Print</span><span class="token punctuation">(</span><span class="token string">&quot;Write &quot;</span><span class="token punctuation">,</span> i<span class="token punctuation">,</span> <span class="token string">&quot; as &quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">switch</span> i <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;one&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">case</span> <span class="token number">2</span><span class="token punctuation">:</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;two&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">case</span> <span class="token number">3</span><span class="token punctuation">:</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;three&quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><p>Bạn có thể sử dụng dấu <code>,</code> để phân tách nhiều biểu thức trong cùng một <code>case</code><br>
+Ở ví dụ này chúng ta cũng sẽ sử dụng cả trường hợp <code>default</code></p> <div class="language-go extra-class"><pre class="language-go"><code>    <span class="token keyword">switch</span> time<span class="token punctuation">.</span><span class="token function">Now</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Weekday</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> time<span class="token punctuation">.</span>Saturday<span class="token punctuation">,</span> time<span class="token punctuation">.</span>Sunday<span class="token punctuation">:</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;It's the weekend&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;It's a weekday&quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><p><code>switch</code> mà không có biểu thức thì cũng được coi như là 1 cách để thay thế cho việc thể hiện <code>if/else</code></p> <div class="language-go extra-class"><pre class="language-go"><code>    t <span class="token operator">:=</span> time<span class="token punctuation">.</span><span class="token function">Now</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">switch</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> t<span class="token punctuation">.</span><span class="token function">Hour</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">12</span><span class="token punctuation">:</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;It's before noon&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;It's after noon&quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><p>Một kiểu <code>switch</code> so sánh các kiểu dữ liệu thay vì so sánh các giá trị. Có thể sử dụng kiểu này để biết được kiểu giá trị của một <code>interface</code>.<br>
+Trong ví dụ này, biến <code>t</code> sẽ có kiểu tương đương với mệnh đề của nó.</p> <div class="language-go extra-class"><pre class="language-go"><code>    whatAmI <span class="token operator">:=</span> <span class="token keyword">func</span><span class="token punctuation">(</span>i <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">switch</span> t <span class="token operator">:=</span> i<span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token keyword">type</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">case</span> <span class="token builtin">bool</span><span class="token punctuation">:</span>
+            fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;I'm a bool&quot;</span><span class="token punctuation">)</span>
+        <span class="token keyword">case</span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+            fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;I'm an int&quot;</span><span class="token punctuation">)</span>
+        <span class="token keyword">default</span><span class="token punctuation">:</span>
+            fmt<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Don't know type %T\n&quot;</span><span class="token punctuation">,</span> t<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">whatAmI</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span>
+    <span class="token function">whatAmI</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token function">whatAmI</span><span class="token punctuation">(</span><span class="token string">&quot;hey&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-syntax extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br></div><pre class="language-text"><code>$ go run switch.go 
+Write 2 as two
+It's a weekday
+It's after noon
+I'm a bool
+I'm an int
+Don't know type string
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/go-lane/guide/if-else/" class="prev">If-Else</a></span> <span class="next"><a href="/go-lane/guide/arrays/">Arrays</a>→
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/go-lane/assets/js/app.ee20a03a.js" defer></script><script src="/go-lane/assets/js/2.6727595f.js" defer></script><script src="/go-lane/assets/js/12.ed2f1381.js" defer></script>
+  </body>
+</html>

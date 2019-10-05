@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Values | Golang</title>
+    <meta name="description" content="Golang - Young Tailors Team">
+    
+    
+    <link rel="preload" href="/go-lane/assets/css/0.styles.bdfa16cb.css" as="style"><link rel="preload" href="/go-lane/assets/js/app.ee20a03a.js" as="script"><link rel="preload" href="/go-lane/assets/js/2.6727595f.js" as="script"><link rel="preload" href="/go-lane/assets/js/13.42380ca9.js" as="script"><link rel="prefetch" href="/go-lane/assets/js/10.ec5a8ffb.js"><link rel="prefetch" href="/go-lane/assets/js/11.d18149a2.js"><link rel="prefetch" href="/go-lane/assets/js/12.ed2f1381.js"><link rel="prefetch" href="/go-lane/assets/js/14.67ed951d.js"><link rel="prefetch" href="/go-lane/assets/js/15.b3fdc2e9.js"><link rel="prefetch" href="/go-lane/assets/js/16.e625795a.js"><link rel="prefetch" href="/go-lane/assets/js/3.4502374e.js"><link rel="prefetch" href="/go-lane/assets/js/4.bb48645e.js"><link rel="prefetch" href="/go-lane/assets/js/5.77018ae9.js"><link rel="prefetch" href="/go-lane/assets/js/6.3726f43c.js"><link rel="prefetch" href="/go-lane/assets/js/7.98c5bca2.js"><link rel="prefetch" href="/go-lane/assets/js/8.489c372a.js"><link rel="prefetch" href="/go-lane/assets/js/9.1ca6e81a.js">
+    <link rel="stylesheet" href="/go-lane/assets/css/0.styles.bdfa16cb.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/go-lane/" class="home-link router-link-active"><!----> <span class="site-name">Golang</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/go-lane/guide/" class="nav-link router-link-active">Guide</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/go-lane/guide/" class="nav-link router-link-active">Guide</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Cơ bản</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/go-lane/guide/hello-world/" class="sidebar-link">Hello World</a></li><li><a href="/go-lane/guide/values/" class="active sidebar-link">Values</a></li><li><a href="/go-lane/guide/variables/" class="sidebar-link">Variables</a></li><li><a href="/go-lane/guide/constants/" class="sidebar-link">Constants</a></li><li><a href="/go-lane/guide/for/" class="sidebar-link">For</a></li><li><a href="/go-lane/guide/if-else/" class="sidebar-link">If-Else</a></li><li><a href="/go-lane/guide/switch/" class="sidebar-link">Switch</a></li><li><a href="/go-lane/guide/arrays/" class="sidebar-link">Arrays</a></li><li><a href="/go-lane/guide/slices/" class="sidebar-link">Slices</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="values"><a href="#values" aria-hidden="true" class="header-anchor">#</a> Values</h1> <p>Go có nhiều loại giá trị khác nhau bao gồm <code>strings</code>, <code>integers</code>, <code>floats</code>, <code>booleans</code>, ...<br>
+Dưới đây là một số ví dụ cơ bản:<br></p> <p>Strings có thể được nối với nhau thông qua <code>+</code>.</p> <p>Intergers và floats.</p> <p>Booleans, cho ra kết quả của các phép tính boolean mà bạn mong muốn.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token string">&quot;fmt&quot;</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;go&quot;</span> <span class="token operator">+</span> <span class="token string">&quot;lang&quot;</span><span class="token punctuation">)</span>
+    
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;1+1 = &quot;</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;7.0/3.0&quot;</span><span class="token punctuation">,</span> <span class="token number">7.0</span><span class="token operator">/</span><span class="token number">3.0</span><span class="token punctuation">)</span>
+
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token boolean">true</span> <span class="token operator">&amp;&amp;</span> <span class="token boolean">false</span><span class="token punctuation">)</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token boolean">true</span> <span class="token operator">||</span> <span class="token boolean">false</span><span class="token punctuation">)</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token operator">!</span><span class="token boolean">true</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-syntax extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br></div><pre class="language-text"><code>$ go run values.go
+golang
+1+1 = 2
+7.0/3.0 = 2.3333333333333335
+false
+true
+false
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/go-lane/guide/hello-world/" class="prev">Hello World</a></span> <span class="next"><a href="/go-lane/guide/variables/">Variables</a>→
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/go-lane/assets/js/app.ee20a03a.js" defer></script><script src="/go-lane/assets/js/2.6727595f.js" defer></script><script src="/go-lane/assets/js/13.42380ca9.js" defer></script>
+  </body>
+</html>
