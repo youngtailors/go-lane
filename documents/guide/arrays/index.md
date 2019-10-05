@@ -14,7 +14,7 @@ func main() {
     fmt.Println("emp: ", a)
 ```
 
-Chúng ta có thể gán 1 giá trị tới một vị trí cụ thể thông qua cú pháp `array[index] = value`, và cũng có thể lấy một giá trị với `array[index]`
+Chúng ta có thể thiết lập 1 giá trị tới một vị trí cụ thể thông qua cú pháp `array[index] = value`, và cũng có thể lấy một giá trị với `array[index]`
 
 ```go
     ints[4] = 100

@@ -18,6 +18,7 @@ module.exports = {
           '/guide/if-else/',
           '/guide/switch/',
           '/guide/arrays/',
+          '/guide/slices/',
         ]
       }
     ]
