@@ -12,7 +12,7 @@
 <router-link to="./if-else"><u>If/Else</u></router-link></br>
 <router-link to="./switch"><u>Switch</u></router-link></br>
 <router-link to="./arrays"><u>Arrays</u></router-link></br>
-<router-link to="#"><u>Slices</u></router-link></br>
+<router-link to="./slices"><u>Slices</u></router-link></br>
 <router-link to="#"><u>Maps</u></router-link></br>
 <router-link to="#"><u>Range</u></router-link></br>
 <router-link to="#"><u>Functions</u></router-link></br>
